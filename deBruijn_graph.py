@@ -2,7 +2,6 @@
 ## and then using those reads to reconstruct the sequence
 
 import argparse
-seq = 'ATGGAAGTCGCGGAATC'
 
 def Main():
 	
