@@ -1,5 +1,5 @@
 ## This is a practice solution to the deBruijn graph problem of breaking sequence into overlapping reads of equal size 
-## and then using those reads to reconstruct the sequence
+## and then using those reads to reconstruct the unique sequence to which the reads belong
 
 import argparse
 
