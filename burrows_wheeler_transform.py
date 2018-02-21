@@ -34,7 +34,7 @@ def append_dollar_return_chars():
 	
 print(append_dollar_return_chars())
 
-def create_single_rotation_of_string(list_of_char): ## working fine
+def create_single_rotation_of_string(list_of_char): 
 	
 	rotated_list_of_char = [0]*(len(list_of_char))
 	
