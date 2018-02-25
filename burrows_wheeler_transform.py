@@ -61,11 +61,11 @@ def create_complete_rotation_of_string():
 	return sorted(all_rotations)
 
 def get_the_burrows_wheeler_transform():
-	allSortedStringList = create_complete_rotation_of_string()
+	all_sorted_string_list = create_complete_rotation_of_string()
 	burrows_wheeler_transformed_string=""
-	for i in range(0,len(allSortedStringList)):
+	for i in range(0,len(all_sorted_string_list)):
 		
-		burrows_wheeler_transformed_string+=allSortedStringList[i][len(allSortedStringList[i])-1]
+		burrows_wheeler_transformed_string+=all_sorted_string_list[i][len(all_sorted_string_list[i])-1]
 	return 	burrows_wheeler_transformed_string
 
 print('These are all the rotations of the strings')	
