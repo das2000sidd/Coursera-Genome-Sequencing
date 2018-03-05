@@ -24,10 +24,10 @@ print(index_genome(genome,5))
 		
 def return_start_end_of_any_kmer(query_seq,genome,size_index):
 	genome_indexes = index_genome(genome,size_index)
-	aseq_size_as_index = query_seq[0:size_index]
+	query_seq_size_as_index = query_seq[0:size_index]
 	
 	for seq,seq_start in genome_indexes.items():
-		if(seq==aseq_size_as_index):
+		if(seq==query_seq_size_as_index):
 			start_of_genome_match = seq_start
 			end_of_genome_match = seq_start+len(query_seq)-1
 			
