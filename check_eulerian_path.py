@@ -6,9 +6,7 @@ graph_with_cycle_2={'1':['2','4'],'2':['1','4'],'3':['2'],'4':['1','3']} ## 1 ex
 graph_with_cycle3={'1':'2','2':'3','3':'1'}## 1 expected output
 
 def out_in_edges(graph_with_cycle):
-	has_cycle=0
 	graph_nodes= graph_with_cycle.keys()
-	visited=set()
 	node_count_dict={}
 	for each_node in graph_nodes:
 		node_out_degree=len(graph_with_cycle[each_node])
